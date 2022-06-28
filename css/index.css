@@ -194,7 +194,21 @@
 
 
 
-
+@media(max-width: 1820px){
+    .know-how__slide {
+        padding-top: 130px;
+    }
+    .know-how__slide-title {
+        letter-spacing: -0.008em;
+        font-size: 96px;
+        line-height: 112px;
+    }
+    .know-how__slide-decor-title {
+        line-height: 105px;
+        font-size: 114px;
+        margin-top: -69px;
+    }
+}
 
 
 
