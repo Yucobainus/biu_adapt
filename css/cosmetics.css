@@ -1,0 +1,255 @@
+.cosmetics {
+    padding-top: 64px;
+    position: relative;
+}
+
+
+.cosmetics__title {
+    margin-left: -13px;
+
+
+}
+
+.cosmetics__title-1 {
+    font-weight: 300;
+    font-size: 140px;
+    line-height: 164px;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
+
+
+    color: #2F3338;
+}
+.cosmetics__title-2 {
+    font-weight: 400;
+    font-size: 190px;
+    line-height: 293px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #CB9E76;
+
+    margin-top: -152px;
+    padding-left: 700px;
+}
+
+
+
+
+.cosmetics__bg {
+    top: 147px;
+    height: 737px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+    display: flex;
+}
+.cosmetics__bg-left {
+    width: 50%;
+}
+.cosmetics__bg-right {
+    background: #F6ECF0;
+    width: 50%;
+    height: 100%;
+}
+
+
+.cosmetics__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -42px;
+}
+.cosmetics__content-left {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 78px;
+    max-width: 800px;
+}
+.cosmetics__content-right img {
+    width: 635px;
+    height: 635px;
+
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.about {
+    padding-top: 111px;
+    padding-bottom: 40px;
+}
+.about__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.about__img {
+    display: block;
+    width: 715px;
+    height: 540px;
+}
+
+
+.about__right {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+    max-width: 800px;
+}
+.about__right p{
+    margin: 0;
+}
+.about__right p:not(:last-child) {
+    margin-bottom: 13px;
+}
+
+
+.about__descr {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 93px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #CB9E76;
+    text-align: center;
+    margin-top: 109px;
+}
+
+
+
+
+
+
+
+
+
+
+.description {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+
+.description__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.description__content-left-top {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+    max-width: 745px;
+}
+.description__content-left-bottom {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #CB9E76;
+
+    margin-top: 73px;
+    max-width: 680px;
+    margin-left: -5px;
+}
+
+.description__img {
+    width: 800px;
+    height: 475px;
+    margin-bottom: -6px;
+    display: block;
+}
+.description__descr {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 93px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #CB9E76;
+    text-align: center;
+    margin-top: 67px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comment {
+    background-image: url("../img/cosmetics/bg_2.jpg");
+    background-size: cover;
+    padding-top: 145px;
+    padding-bottom: 185px;
+}
+.comment__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment__left-top {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+
+    max-width: 509px;
+    margin-top: 25px;
+}
+.comment__left-top p {
+    margin: 0;
+}
+.comment__left-top p:not(:last-child) {
+    margin-bottom: 13px;
+}
+.comment__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.comment__left-bottom {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 93px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #CB9E76;
+    margin-bottom: -15px;
+}
+
+
+
+.comment__right {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #CB9E76;
+
+    max-width: 731px;
+    margin-right: 69px;
+}

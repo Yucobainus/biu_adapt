@@ -1,0 +1,102 @@
+.account-main__title {
+    font-weight: var(--font-wight400);
+    font-size: 40px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #2F3338;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.account-main__contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 101px;
+}
+.account-main__contacts-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: 1px solid #CB9E76;
+    max-width: 300px;
+    min-height: 230px;
+    width: 100%;
+    padding: 27px 33px 27px 37px;
+}
+
+
+.account-main__contacts-content-title {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #CB9E76;
+}
+.account-main__contacts-content-value {
+    font-weight: var(--font-wight400);
+    font-size: 21px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+}
+.account-main__contacts-content-value p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.account-main__contacts-content-value span, .account-main__contacts-content-value a {
+    display: block;
+    text-decoration: none;
+    color: #2F3338;
+}
+
+
+.account-main__contacts-link {
+    background: rgba(203, 158, 118, 0.8);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.account-main__subscribers {
+    margin-top: 94px;
+}
+.account-main__subscribers-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #2F3338;
+
+    text-decoration: none;
+}
+.account-main__subscribers-link-text {
+    font-weight: var(--font-wight400);
+    font-size: 40px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+    margin-right: 20px;
+}

@@ -1,0 +1,88 @@
+
+
+
+.account-user__title {
+    font-weight: var(--font-wight400);
+    font-size: 40px;
+    line-height: 140%;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+}
+
+
+
+
+.account-user__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+}
+.account-user__input-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 880px;
+}
+.account-user__input-list input {
+    margin-bottom: 10px;
+}
+
+
+
+.account-user__checkbox-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.account-user__checkbox-list input[type='checkbox'] {
+    display: none;
+}
+.account-user__checkbox-list span {
+    font-weight: var(--font-wight400);
+    font-size: 21px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+
+    display: block;
+    margin: 5px 0;
+    padding-left: 28px;
+
+    position: relative;
+}
+.account-user__checkbox-list span:before {
+    content: '';
+    width: 17.45px;
+    height: 17.45px;
+    border: 1px solid #2F3338;
+
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.account-user__checkbox-list input:checked + span:before {
+    background: #2F3338;
+}
+
+
+
+
+
+
+
+.account-user__hidden-content {
+    font-weight: var(--font-wight400);
+    font-size: 18px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #2F3338;
+
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+.account-user__hidden-content.active {
+    max-height: none;
+    transition: .5s;
+}

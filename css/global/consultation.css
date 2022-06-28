@@ -1,0 +1,91 @@
+.consultation {
+
+}
+.consultation__title {
+    font-weight: 300;
+    font-size: 140px;
+    line-height: 129px;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+    text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
+
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: lighten;
+}
+.consultation__title-1 {
+    margin-left: -13px;
+}
+.consultation__title-2 {
+    text-align: right;
+    margin-right: 157px;
+}
+
+
+
+.consultation__content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: -278px;
+}
+
+.consultation__title__form {
+    flex-grow: 1;
+    max-width: 943px;
+    padding-bottom: 87px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    padding-right: 86px;
+}
+.consultation__title__form-top {
+    font-weight: var(--font-wight400);
+    font-size: 21px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+    max-width: 402px;
+}
+.consultation__title__form-top p:last-child {
+    margin-bottom: 0;
+}
+
+.consultation__title__form-body {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+}
+.consultation__title__form-field {
+    display: flex;
+    flex-direction: column;
+}
+.consultation__title__form-button {
+    border: none;
+    background: transparent;
+    margin-left: 75px;
+    cursor: pointer;
+}
+.consultation__title__form-field .input-wrap {
+    margin: 12px 0;
+}
+.consultation__title__form-field input {
+    border: none;
+    /*border-bottom: 1px solid #2F3338;*/
+    width: 341px;
+
+    font-weight: var(--font-wight400);
+    font-size: 20.9455px;
+    line-height: 100%;
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+
+    height: 28px;
+}
+.consultation__title__form-field input::placeholder {
+    color: rgba(47, 51, 56, 0.45);
+}

@@ -1,0 +1,226 @@
+.account {
+    padding-top: 83px;
+    padding-bottom: 158px;
+    position: relative;
+}
+.account:after {
+    content: url("./img/account-sercle.svg");
+
+    position: absolute;
+    top: -14px;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+.account__title {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 75px;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-left: -2px;
+
+    color: #2F3338;
+}
+
+.account__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+.account__page-content {
+    flex-grow: 1;
+    max-width: 1015px;
+}
+
+.account__menu {
+    padding-top: 62px;
+
+    display: flex;
+    flex-direction: column;
+}
+.account__menu-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.account__menu-item {
+    padding: 15px 0;
+}
+.account__menu-item_active {
+    position: relative;
+}
+.account__menu-item_active a {
+    color: #CB9E76 !important;
+}
+.account__menu-item_active:after {
+    content: attr(data-counter);
+    position: absolute;
+    right: -100px;
+    top: -33px;
+
+    font-family: 'MADE TheArtist Script';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 154px;
+    text-transform: lowercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #CB9E76;
+}
+.account__menu-item_out {
+    margin-top: 30px;
+}
+.account__menu-item a {
+    font-weight: var(--font-wight400);
+    font-size: 21px;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #2F3338;
+
+    text-decoration: navajowhite;
+}
+
+
+
+
+
+
+
+
+
+.account__input {
+    border: 1px solid #2F3338;
+    height: 60px;
+
+    font-weight: var(--font-wight400);
+    font-size: 18px;
+    line-height: 100%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #2F3338;
+
+    padding: 0 21px;
+}
+.account__input::placeholder {
+    font-weight: var(--font-wight400);
+    font-size: 18px;
+    line-height: 100%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #2f333885;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* table */
+.account__table {
+    margin-top: 24px;
+}
+.account__table-header {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #CB9E76;
+    text-align: center;
+}
+.account__table-body {
+    font-weight: var(--font-wight400);
+    font-size: 21px;
+    line-height: 140%;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2f33387d;
+    text-align: center;
+}
+.account__table-body .account__table-row {
+    padding: 10px 0;
+}
+
+
+.account__table-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #CB9E76;
+    padding: 7px 0;
+    align-items: center;
+}
+
+
+.account__table-item {
+    padding: 0 5px;
+}
+.account__table-item:nth-child(1) {
+    max-width: 110px;
+    width: 100%;
+    padding-left: 0;
+}
+.account__table-item:nth-child(2) {
+    width: 100%;
+    max-width: 120px;
+}
+.account__table-item:nth-child(3) {
+    width: 100%;
+    max-width: 120px;
+}
+.account__table-item:nth-child(4) {
+    width: 100%;
+    max-width: 165px;
+}
+.account__table-item:nth-child(5) {
+    width: 100%;
+    max-width: 120px;
+}
+.account__table-item:nth-child(6) {
+    width: 100%;
+    max-width: 110px;
+}
+
+
+
+
+
+
+
+
+
+.account__pagination {
+    font-weight: var(--font-wight400);
+    font-size: 21px;
+    line-height: 100%;
+    text-transform: lowercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.account__pagination-prev, .account__pagination-next {
+    margin: 0 10px;
+}
+.account__pagination-page {
+    margin: 0 4px;
+}

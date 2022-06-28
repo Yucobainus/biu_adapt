@@ -1,0 +1,32 @@
+.snippet {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    max-width: 408px;
+    width: 100%;
+}
+
+
+.snippet__img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 467px;
+    display: block;
+}
+
+.snippet__title {
+    font-weight: var(--font-wight400);
+    font-size: 28px;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2F3338;
+    border-top: 1px solid #CB9E76;
+    padding: 10px 0;
+    text-align: left;
+
+
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+}

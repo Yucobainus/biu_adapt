@@ -1,0 +1,10 @@
+[data-accordion-content] {
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+[data-accordion-content].active {
+    max-height: none;
+    transition: .5s;
+}

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "../fonts/madetheartistscript.css";
+
+@import "global/header.css";
+@import "global/footer.css";
+@import "global/footer-form.css";
+@import "global/consultation.css";
+@import "global/accordion.css";
+@import "global/snippet.css";
+@import "global/input-wrap.css";
+
+
+
+.underline {
+    position: relative;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+}
+.underline:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: calc(100% - 5px);
+}
+.underline_wight:after {
+    background: #fff;
+}
+
+
+
+
+
+.main {
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: inherit;
+
+}
+.not-transform {
+    transform: none !important;
+    transition: .5s margin;
+    transition-duration: unset !important;
+}
+.swiper-backface-hidden .swiper-slide {
+    transform: none !important;
+    backface-visibility: inherit !important;
+}
+body {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+
+    font-family: 'Raleway', sans-serif;
+
+
+    overflow: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    flex-shrink: 0;
+    transform-origin: center top ;
+}
+
+main {
+    width: 1920px;
+    overflow: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+    transform-origin: center top;
+}
+
+main {
+    padding-top: 160px;
+}
+
+@media(max-width: 1820px){
+    main{
+        width: 1820px;
+    }
+}
+
+
+
+
+.btn {
+    width: 164px;
+    height: 164px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    border: 1px solid #CB9E76;
+}
+.btn_vk path {
+    fill: #CB9E76;
+}
+.btn_vk:hover path {
+    fill: #fff;
+}
+.btn_svg:hover {
+    background: #CB9E76;
+}
+.btn_svg svg {
+    max-width: 36px;
+    height: auto;
+}
+.btn_svg:hover path {
+    stroke: #fff;
+}
+.btn_text:hover {
+    border-color: #2F3338;
+}
+
+
+
+
+
+.container {
+    max-width: 1630px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media(max-width: 1820px){
+    .container{
+        max-width: 1550px;
+    }
+}
+
+
+/*@media(max-width: 1650px) {*/
+/*    body {*/
+/*        padding-top: 119px;*/
+/*    }*/
+/*    .container {*/
+/*        max-width: 100%;*/
+/*        padding: 0 120px;*/
+/*    }*/
+/*}*/
+/*@media(max-width: 1440px) {*/
+/*    .container {*/
+/*        max-width: 1230px;*/
+/*        padding: 0 12px;*/
+/*    }*/
+/*}*/
+/*@media(max-width: 940px) {*/
+/*    .container {*/
+/*        max-width: 738px;*/
+/*    }*/
+/*}*/
+/*@media(max-width: 570px) {*/
+/*    .container {*/
+/*        padding: 0 30px;*/
+/*    }*/
+/*}*/
+
+.decor-font {
+    font-family: 'MADE TheArtist Script';
+}
+
+
+.title {
+    font-weight: 300;
+    font-size: 140px;
+    line-height: 164px;
+    text-transform: uppercase;
+    color: #2F3338;
+}
+/*@media(max-width: 1650px) {*/
+/*    .title {*/
+/*        font-size: 105px;*/
+/*        line-height: normal;*/
+/*    }*/
+/*}*/
+/*@media(max-width: 940px) {*/
+/*    .title {*/
+/*        font-size: 80px;*/
+/*    }*/
+/*}*/
