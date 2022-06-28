@@ -440,7 +440,7 @@
         margin-bottom: 30px;
     }
 
-    .recipe__item-btn{
+    .recipe__item-btn {
         width: 120px;
         height: 120px;
     }
@@ -490,7 +490,28 @@
 
 
 
+@media (max-width: 1820px) {
+    .therapy {
+        padding: 86px 0;
+    }
 
+    .therapy__title-top {
+        font-size: 134px;
+        letter-spacing: -0.005em;
+    }
+
+    .therapy__title-bottom {
+        font-size: 96px;
+        letter-spacing: -0.005em;
+        padding-right: 104px;
+    }
+
+    .therapy__content-left {
+        font-size: 20px;
+        letter-spacing: 0.005em;
+        padding-top: 143px;
+    }
+}
 
 
 
@@ -516,6 +537,10 @@
 .therapy__content-left-bottom {
     margin-bottom: 5px;
 }
+
+
+
+
 
 .therapy__btn {
     display: flex;
@@ -630,6 +655,48 @@
 }
 
 
+
+
+@media (max-width: 1820px) {
+    .therapy__content-left {
+        font-size: 20px;
+        line-height: 139%;
+        letter-spacing: 0.005em;
+        padding-top: 143px;
+        margin-right: 63px;
+    }
+
+    .therapy__content-right {
+        margin-bottom: -3px;
+        line-height: 139%;
+        margin-right: -21px;
+        font-size: 20px;
+        letter-spacing: 0.002em;
+    }
+
+    .therapy__video-view-img {
+        width: 95%;
+    }
+
+    .therapy__video-play-wrap {
+        width: 95%;
+    }
+
+
+    .therapy__btn-text {
+        letter-spacing: -0.019em;
+        margin-top: 9px;
+    }
+
+    .therapy__btn-icon {
+        width: 63.82px;
+        height: 63.82px;
+        margin-left: 11px;
+    }
+
+
+
+}
 
 
 
@@ -843,6 +910,49 @@
 
 
 
+@media (max-width: 1820px) {
+
+    .blog {
+        padding-top: 123px;
+        padding-bottom: 166px;
+    }
+
+    .blog__title {
+        font-size: 134px;
+        letter-spacing: -0.005em;
+    }
+
+    .blog__list {
+        margin-top: 84px
+    }
+
+    
+    .blog__list-left{
+        margin-right: 32px;
+    }
+
+
+
+   
+
+    .blog__item-img{
+        width: 100%;
+        height: 94%;
+    }
+
+    .blog__item-content{
+        width: 100%;
+        height: 94%;
+    }
+
+
+    .blog__list-right{
+        margin-right: -53px;
+    }
+
+}
+
+
 
 
 
@@ -959,6 +1069,54 @@
 
 
 
+@media (max-width: 1820px) {
+    .your {
+        padding-top: 139px;
+    }
+
+    .your__title-1 {
+        letter-spacing: -0.005em;
+        font-size: 134px;
+    }
+
+    .your__title-2 {
+        font-size: 182px;
+        letter-spacing: -0.001em;
+        margin-left: -143px;
+        margin-top: 73px;
+    }
+
+    .your__descr {
+        font-size: 20px;
+        margin-top: 22px;
+    }
+
+    .your__content-item-text {
+        margin-left: 221px;
+        font-size: 61px;
+        line-height: 104%;
+        letter-spacing: -0.005em;
+    }
+
+    .your__content-item-text-1 {
+        margin-top: -8px;
+    }
+
+    .your__content-item-text-2 {
+        padding-left: 398px;
+    }
+
+    .your__content-item-count.decor-font {
+        margin-top: -6px;
+    }
+
+    .your__content-decor {
+        width: 47%;
+        bottom: -72px;
+        left: -152px;
+    }
+
+}
 
 
 
@@ -1134,4 +1292,21 @@
 
 .funds__slider-wrap {
     display: flex;
+}
+
+@media (max-width: 1820px) {
+    .funds {
+        padding-top: 203px;
+    }
+
+
+    .funds__title-1 {
+        font-size: 133px;
+    }
+
+    .funds__title-2 {
+        font-size: 182px;
+        margin-left: -41px;
+    }
+
 }

@@ -1,0 +1,34 @@
+/* 1820 */
+
+.container.header__container {
+    max-width: 1550px;
+}
+
+.header__menu-btn {
+    margin-right: 58px;
+}
+
+.logo {
+    width: 148px;
+    margin-right: 4px;
+}
+
+.header__wrap{
+    font-size: 20px;
+}
+
+.header__wrap a{
+    font-size: 21px;
+}
+
+.menu-btn__burger {
+    margin-right: 10px;
+}
+
+.header__contacts .contacts__item{
+    margin-left: 26px;
+}
+
+.header__phone {
+    margin-right: 10px;
+}
