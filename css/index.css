@@ -369,7 +369,21 @@
 
 
 
-
+@media(max-width: 1820px){
+    .recipe__title-decor{
+        font-size: 95px;
+        margin-left: 253px;
+        margin-bottom: -17px;
+        margin-top: -26px;
+    }
+    .recipe__title-line{
+        font-size: 133px;
+        line-height: 128px;       
+    }
+    .recipe__title-line-2,  .recipe__title-line-3{
+        margin-left: 241px;
+    }
+}
 
 
 
