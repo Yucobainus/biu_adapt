@@ -5,7 +5,11 @@ const closeMenuBtn = document.querySelector('.header-menu__close-btn')
 
 openMenuBtn.addEventListener('click', () => {
     body.classList.add('header-menu_active')
+    body.classList.add('lock')
 })
 closeMenuBtn.addEventListener('click', () => {
     body.classList.remove('header-menu_active')
+    body.classList.remove('lock')
 })
+
+

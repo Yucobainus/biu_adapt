@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    max-width: 408px;
+    max-width: 410px;
     width: 100%;
 }
 
@@ -10,7 +10,7 @@
 .snippet__img {
     max-width: 100%;
     object-fit: cover;
-    height: 467px;
+    height: 457px;
     display: block;
 }
 
