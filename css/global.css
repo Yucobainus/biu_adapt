@@ -9,10 +9,10 @@
 @import "global/snippet.css";
 @import "global/input-wrap.css";
 
+
 body.lock{
     overflow-y: hidden;
 }
-
 
 .underline {
     position: relative;
@@ -168,7 +168,7 @@ main {
 
 @media (max-width: 1519px) {
     .container {
-        max-width: 1294px;
+        max-width: 1300px;
     }
 }
 
