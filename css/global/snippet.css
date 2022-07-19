@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    max-width: 408px;
+    max-width: 410px;
     width: 100%;
 }
 
@@ -10,7 +10,7 @@
 .snippet__img {
     max-width: 100%;
     object-fit: cover;
-    height: 467px;
+    height: 457px;
     display: block;
 }
 
@@ -29,4 +29,17 @@
     max-width: 300px;
     margin: 0 auto;
     width: 100%;
+}
+@media(max-width: 1519px) {
+    .snippet__img {
+        object-fit: contain;
+        height: 355px;
+    }
+
+    .snippet__title {
+        font-size: 22px;
+        padding: 7px 0;
+        max-width: 238px;
+        width: 100%;
+    }
 }

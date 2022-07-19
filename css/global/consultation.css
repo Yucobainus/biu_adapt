@@ -1,12 +1,11 @@
-.consultation {
+.consultation {}
 
-}
 .consultation__title {
     font-weight: 300;
     font-size: 140px;
     line-height: 129px;
     text-transform: uppercase;
-    font-feature-settings: 'pnum' on, 'lnum' on;
+    font-feature-settings: 'pnum'on, 'lnum'on;
     color: #2F3338;
     text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
 
@@ -14,9 +13,11 @@
     z-index: 2;
     mix-blend-mode: lighten;
 }
+
 .consultation__title-1 {
     margin-left: -13px;
 }
+
 .consultation__title-2 {
     text-align: right;
     margin-right: 157px;
@@ -42,14 +43,16 @@
 
     padding-right: 86px;
 }
+
 .consultation__title__form-top {
     font-weight: var(--font-wight400);
     font-size: 21px;
     line-height: 140%;
-    font-feature-settings: 'pnum' on, 'lnum' on;
+    font-feature-settings: 'pnum'on, 'lnum'on;
     color: #2F3338;
     max-width: 402px;
 }
+
 .consultation__title__form-top p:last-child {
     margin-bottom: 0;
 }
@@ -59,19 +62,23 @@
     display: flex;
     align-items: center;
 }
+
 .consultation__title__form-field {
     display: flex;
     flex-direction: column;
 }
+
 .consultation__title__form-button {
     border: none;
     background: transparent;
     margin-left: 75px;
     cursor: pointer;
 }
+
 .consultation__title__form-field .input-wrap {
     margin: 12px 0;
 }
+
 .consultation__title__form-field input {
     border: none;
     /*border-bottom: 1px solid #2F3338;*/
@@ -81,11 +88,142 @@
     font-size: 20.9455px;
     line-height: 100%;
 
-    font-feature-settings: 'pnum' on, 'lnum' on;
+    font-feature-settings: 'pnum'on, 'lnum'on;
     color: #2F3338;
 
     height: 28px;
 }
+
 .consultation__title__form-field input::placeholder {
     color: rgba(47, 51, 56, 0.45);
+}
+
+
+@media (max-width: 1720px) {
+    .consultation__title {
+        font-size: 126px;
+        line-height: 121px;
+    }
+
+    .consultation__title-2 {
+        margin-right: 139px;
+    }
+
+    .consultation__title__form-button {
+        margin-left: 108px;
+    }
+
+    .consultation__title__form-button svg {
+        width: 142px;
+        height: 144px;
+    }
+
+    .consultation__title__images {
+        margin-top: 27px;
+        margin-right: 85px;
+    }
+
+    .consultation__title__images-img {
+        width: 512px;
+        height: 659px;
+    }
+
+    .consultation__title__form {
+        padding-right: 77px;
+        padding-bottom: 55px;
+        margin-top: 20px;
+    }
+
+    .consultation__title__form-body {
+        margin-top: 21px;
+    }
+
+    .consultation__title__form-top {
+        font-size: 18px;
+        max-width: 327px;
+    }
+
+    .consultation__title__form {
+        padding-right: 74px;
+        margin-top: 20px;
+    }
+
+    .consultation__title__form-field {
+        margin-bottom: 28px;
+    }
+
+    .consultation__title__form-field input {
+        font-size: 18.9455px;
+    }
+
+    .consultation__title__form-field .input-wrap {
+        margin-bottom: 13px;
+    }
+
+    .consultation__title__form-field input {
+        width: 266px;
+    }
+}
+
+@media (max-width: 1518px) {
+    .consultation__title {
+        font-size: 107px;
+        line-height: 103px;
+        letter-spacing: 3px;
+    }
+
+    .consultation__title-2 {
+        margin-right: 117px;
+    }
+
+    .consultation__title__form-button svg {
+        width: 130px;
+        height: 130px;
+    }
+
+    .consultation__title__images {
+        margin-top: 59px;
+        margin-right: 82px;
+    }
+
+    .consultation__title__images-img {
+        width: 438px;
+        height: 582px;
+    }
+
+    .consultation__title__form {
+        padding-right: 0px;
+        margin-right: -24px;
+        padding-bottom: 37px;
+    }
+
+    .consultation__title__form-body {
+        margin-top: 25px;
+    }
+
+    .consultation__title__form-top {
+        font-size: 17px;
+        max-width: 327px;
+    }
+
+    .consultation__title__form {
+        padding-right: 74px;
+        margin-top: 20px;
+    }
+
+    .consultation__title__form-field {
+        margin-bottom: 34px;
+    }
+
+    .consultation__title__form-field input {
+        font-size: 16.9455px;
+    }
+
+    .consultation__title__form-field .input-wrap {
+        margin: 8px 0;
+    }
+
+    .consultation__title__form-field input {
+        width: 266px;
+    }
 }
