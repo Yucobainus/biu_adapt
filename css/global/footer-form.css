@@ -341,7 +341,7 @@
 
     .footer-form__title-bottom {
         margin-top: -36px;
-        margin-left: 209px;
+        margin-left: 204px;
     }
 
     .footer-form__title-bottom-1 {
@@ -395,7 +395,7 @@
     }
 
     .footer-form__btn {
-        margin-left: 73px;
+        margin-left: 70px;
         font-size: 16px;
         letter-spacing: 0.5px;
     }
@@ -436,7 +436,7 @@
     .footer__bottom-right a {
         margin-bottom: -5px;
         font-size: 16px;
-        letter-spacing: 0.3px;
+        letter-spacing: 0px;
     }
 
     .footer__bottom-left span {
