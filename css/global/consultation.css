@@ -165,6 +165,8 @@
     }
 }
 
+
+
 @media (max-width: 1519px) {
     .consultation__title {
         font-size: 111px;
@@ -173,7 +175,7 @@
     }
 
     .consultation__title-2 {
-        margin-right: 119px;
+        margin-right: 118px;
     }
 
     .consultation__title__form-button svg {
@@ -224,7 +226,7 @@
     .consultation__title__form {
         padding-right: 57px;
         margin-top: 20px;
-        padding-bottom: 40px;
+        padding-bottom: 41px;
     }
 
     .consultation__title__form-field input{
@@ -232,3 +234,5 @@
         width: 272px;
     }
 }
+
+

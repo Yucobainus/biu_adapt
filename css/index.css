@@ -235,7 +235,7 @@
     .main__bottom {
         margin-top: -168px;
         justify-content: flex-start;
-        column-gap: 75px;
+        column-gap: 0;
     }
 
     .main__descr {
@@ -246,9 +246,8 @@
     }
 
     .main__name {
-        font-size: 171.273px;
-        margin-left: 79px;
-        margin-right: 0;
+        font-size: 169.273px;
+        margin-left: 156px;
     }
 
     .main__play-btn {
@@ -830,7 +829,7 @@
 @media(max-width: 1519px) {
     .recipe {
         padding-top: 419px;
-        padding-bottom: 118px;
+        padding-bottom: 162px;
     }
 
     .recipe__title-decor {
@@ -843,7 +842,7 @@
     }
 
     .recipe__title-line {
-        font-size: 113px;
+        font-size: 109px;
         line-height: 106px;
         letter-spacing: -1.5px;
     }
@@ -891,7 +890,7 @@
     }
 
     .recipe__item.bottom-card {
-        margin-top: 68px;
+        margin-top: 25px;
     }
 
     .recipe__item-content-text {
@@ -899,17 +898,18 @@
     }
 
     .recipe__title-line-1 {
-        letter-spacing: -2.2px;
+        letter-spacing: -0.2px;
         margin-left: -8px;
     }
 
     .recipe__title-line {
-        font-size: 114px;
+        font-size: 110px;
         line-height: 105px;
     }
 
     .recipe__title-line-2, .recipe__title-line-3 {
         margin-left: 202px;
+        letter-spacing: -0.2px;
     }
 
     .recipe__items {
@@ -925,8 +925,12 @@
         height: 100%;
     }
 
+    .recipe__items-right{
+        margin-right: -7px;
+    }
+
     .recipe__items-right, .recipe__items-center {
-        margin-left: 25px;
+        margin-left: 26px;
     }
 
     .recipe__item:not(:last-child) {
@@ -1275,7 +1279,7 @@
         font-size: 16px;
         line-height: 23px;
         letter-spacing: 0.4px;
-        padding-top: 126px;
+        padding-top: 128px;
         margin-right: -14px;
     }
 
@@ -1285,9 +1289,9 @@
     }
 
     .therapy__content-right {
-        margin-bottom: 1px;
+        margin-bottom: -3px;
         line-height: 150%;
-        margin-right: -91px;
+        margin-right: -94px;
         font-size: 16px;
         letter-spacing: 0.4px;
     }
@@ -1300,6 +1304,10 @@
         margin-top: 42px;
     }
 
+    .therapy__video-play-wrap{
+        width: 95%;
+    }
+
     .therapy__video-play svg {
         width: 120px;
         height: 120px;
@@ -1308,50 +1316,20 @@
     .therapy__btn-icon {
         width: 54.82px;
         height: 54.82px;
-        margin-left: 9px;
-        margin-bottom: 5px;
+
+        margin-left: 11px;
+        margin-bottom: 0;
     }
 
     .therapy__btn-text {
         font-size: 17px;
     }
 
-
-    /* conflict start
-    .therapy__video-play-wrap {
-        width: 95%;
+    .therapy__btn-text{
+        margin-left: -4px;
+        margin-top: 6px;
     }
 
-    .therapy__btn-text {
-        margin-top: 4px;
-    }
-    /8 conflict
-    .therapy__title-top {
-        font-size: 113px;
-        letter-spacing: -1.5px;
-        line-height: 160px;
-        margin-left: -9px;
-    }
-    .therapy__title-bottom {
-        font-size: 81px;
-        letter-spacing: -0.01em;
-        padding-right: 90px;
-        margin-top: -91px;
-    }
-    .therapy__video-view-img {
-        width: 100%;
-        height: 100%;
-    }
-    .therapy__video {
-        width: 521px;
-        margin-right: 26px;
-    }
-    .therapy__content-right {
-        max-width: 427px;
-        min-width: 427px;
-
-    }
-    /* conflict end
 }
 
 
@@ -1721,17 +1699,17 @@
     @media (max-width: 1519px) {
 
         .blog {
-            padding-top: 137px;
-            padding-bottom: 184px;
+            padding-top: 132px;
+            padding-bottom: 178px;
         }
     
         .blog__title {
             font-size: 113px;
-            letter-spacing: -1px;
+            letter-spacing: -1.5px;
         }
     
         .blog__list {
-            margin-top: 36px;
+            margin-top: 38px;
         }
     
     
@@ -1741,7 +1719,7 @@
         }
     
         .blog__item-1, .blog__item-3 {
-            height: 417px;
+            height: 419px;
         }
     
         .blog__list-left {
@@ -1750,25 +1728,25 @@
     
         .blog__item-5 {
             margin-right: 71px;
-            width: 298px;
+            width: 294px;
             height: 297px;
             transform: translateY(0px);
         }
     
         .blog__item-4 {
             width: 491.82px;
-            height: 488.82px;
+            height: 491.82px;
             margin-right: 27px;
         }
     
         .blog__item-2 {
-            width: 270.92px;
+            width: 272.92px;
             height: 272.92px;
-            margin-top: -36px;
+            margin-top: -38px;
         }
     
         .blog__item {
-            margin-bottom: 62px;
+            margin-bottom: 65px;
         }
     
         .blog__item-img {
@@ -2057,7 +2035,7 @@
 
     @media (max-width: 1519px) {
         .your {
-            padding-top: 150px;
+            padding-top: 195px;
             padding-bottom: 217px;
         }
 
@@ -2076,12 +2054,12 @@
         .your__descr {
             font-size: 17px;
             letter-spacing: -0.15px;
-            margin-top: 8px;
+            margin-top: 6px;
             margin-left: -2px;
         }
 
         .your__content {
-            margin-top: 87px;
+            margin-top: 88px;
         }
 
         .your__content-item-text {
@@ -2255,7 +2233,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 58px 0;
+        padding: 24px 0;
     }
 
     .funds__btn {
@@ -2337,7 +2315,7 @@
         }
 
         .funds__slider-btn {
-            padding: 47px 0;
+            padding: 24px 0;
         }
 
         .funds__btn {
@@ -2371,4 +2349,3 @@
     }
 
 
-}
