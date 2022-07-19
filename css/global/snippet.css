@@ -34,7 +34,7 @@
 @media (max-width: 1519px){
     .snippet__title{
         font-size: 22px;
-        padding: 8px 0;
+        padding: 5px 0;
         line-height: normal;
         max-width: 240px;
     }

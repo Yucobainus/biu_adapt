@@ -325,6 +325,7 @@
 
 }
 
+
 @media (max-width: 1519px) {
     .footer {
         padding: 121px 0 80px;
@@ -332,6 +333,7 @@
 
     .footer-form__title {
         padding-top: 0;
+        padding-bottom: 43px;
     }
 
     .footer-form__title-top-1 {
@@ -341,7 +343,7 @@
 
     .footer-form__title-bottom {
         margin-top: -36px;
-        margin-left: 209px;
+        margin-left: 206px;
     }
 
     .footer-form__title-bottom-1 {
@@ -356,13 +358,9 @@
     }
 
     .footer-form__title-top-2, .footer-form__title-bottom-2 {
-        margin-left: 31px;
+        margin-left: 25px;
         font-size: 83px;
         letter-spacing: -0.015em;
-    }
-
-    .footer-form__title {
-        padding-bottom: 43px;
     }
 
     .footer-form__decor-img-1 {
@@ -377,7 +375,7 @@
     }
 
     .footer-form__content {
-        padding: 37px 0 24px;
+        padding: 36px 0 25px;
     }
 
     .footer-form__fields {
@@ -395,7 +393,7 @@
     }
 
     .footer-form__btn {
-        margin-left: 73px;
+        margin-left: 71px;
         font-size: 16px;
         letter-spacing: 0.5px;
     }
@@ -450,7 +448,7 @@
     }
 
     .btn_svg svg {
-        max-width: 27px;
+        max-width: 31px !important;
         height: auto;
     }
 }

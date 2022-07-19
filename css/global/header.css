@@ -680,8 +680,16 @@ body.header-menu_active .header-menu {
 @media (max-width: 1519px) {
 
     .header__left, .header__right {
-        margin-bottom: 18px;
+        margin-bottom: 11px;
     }
+
+    .header__left{
+        margin-left: -6px;
+    }
+
+    .header__right{
+        margin-right: -8px;
+    }   
 
     .header__menu-btn {
         margin-right: 47px;
