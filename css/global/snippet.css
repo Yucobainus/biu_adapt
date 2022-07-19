@@ -30,3 +30,16 @@
     margin: 0 auto;
     width: 100%;
 }
+@media(max-width: 1519px) {
+    .snippet__img {
+        object-fit: contain;
+        height: 355px;
+    }
+
+    .snippet__title {
+        font-size: 22px;
+        padding: 7px 0;
+        max-width: 238px;
+        width: 100%;
+    }
+}
