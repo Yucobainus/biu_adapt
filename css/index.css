@@ -217,7 +217,7 @@
 @media(max-width: 1519px) {
 
     .main {
-        padding: 115px 0 161px;
+        padding: 116px 0 162px;
     }
 
     .main__wrap {
@@ -225,31 +225,33 @@
     }
 
     .main__title-1 {
-        font-size: 204px;
-        letter-spacing: -1.2px;
+        font-size: 201px;
+        letter-spacing: 1.8px;
     }
 
     .main__title-2 {
-        font-size: 227px;
-        margin-left: 76px;
-        letter-spacing: -3px;
+        font-size: 209px;
+        margin-left: 66px;
+        letter-spacing: -1px;
     }
 
     .main__bottom {
         margin-top: -168px;
         justify-content: flex-start;
-        column-gap: 183px;
+        column-gap: 75px;
     }
 
     .main__descr {
-        margin-bottom: 40px;
-        font-size: 18px;
-        max-width: 479px;
+        margin-left: -3px;
+        margin-bottom: 63px;
+        letter-spacing: 0.44px;
+        font-size: 16px;
     }
 
     .main__name {
         font-size: 171.273px;
-        margin-right: -3px;
+        margin-left: 79px;
+        margin-right: 0;
     }
 
     .main__play-btn {
@@ -476,39 +478,42 @@
 
 @media(max-width: 1519px) {
 
+
+
     .know-how__pagination {
         left: 8px !important;
-        bottom: 5px !important;
+        bottom: -1px !important;
     }
 
     .know-how__pagination .swiper-pagination-bullet {
-        width: 31px;
-        height: 31px;
+        width: 29px;
+        height: 29px;
     }
 
     .know-how__slide {
-        padding-top: 102px;
-        padding-bottom: 153px;
+        padding-top: 106px;
+        padding-bottom: 157px;
     }
 
     .know-how__slide-title {
-        letter-spacing: -3.01px;
-        font-size: 84px;
-        line-height: 99px;
+        letter-spacing: -0.5px;
+        font-size: 80px;
+        line-height: 94px;
     }
 
     .know-how__slide-decor-title {
-        line-height: 93px;
+        line-height: 89px;
         font-size: 94px;
-        margin-top: -70px;
-        margin-bottom: 47px;
+        margin-top: -61px;
+        margin-bottom: 45px;
         letter-spacing: 0px;
     }
 
     .know-how__slide-descr {
         max-width: 729px;
-        letter-spacing: 0.005em;
+        letter-spacing: 0.4px;
         font-size: 16px;
+        margin-left: -2px;
     }
 }
 
@@ -843,16 +848,17 @@
 
     .recipe__title-decor {
         font-size: 84px;
-        margin-left: 210px;
-        letter-spacing: -1.5px;
+        margin-left: 209px;
+        letter-spacing: -1.6px;
         margin-bottom: -19px;
-        margin-top: -89px;
+        margin-top: -87px;
+        line-height: 97px;
     }
 
     .recipe__title-line {
-        font-size: 114px;
-        line-height: 107px;
-        letter-spacing: -2px;
+        font-size: 113px;
+        line-height: 106px;
+        letter-spacing: -1.5px;
     }
 
     .recipe__title-line-2, .recipe__title-line-3 {
@@ -864,20 +870,20 @@
     }
 
     .recipe__item {
-        width: 339px;
-        height: 402px;
+        width: 336px;
+        height: 336px;
     }
 
     .recipe__items {
-        margin-top: -170px;
+        margin-top: -165px;
     }
 
     .recipe__items-right, .recipe__items-center {
-        margin-left: 19px;
+        margin-left: 24px;
     }
 
     .recipe__items-right {
-        padding-top: 123px;
+        padding-top: 125px;
     }
 
     .recipe__item:not(:last-child) {
@@ -890,7 +896,19 @@
     }
 
     .recipe__item-content {
-        height: 84%;
+        height: 100%;
+    }
+
+    .recipe__item-content-text {
+        height: 100%;
+    }
+
+    .recipe__item.bottom-card {
+        margin-top: 68px;
+    }
+
+    .recipe__item-content-text {
+        font-size: 17px;
     }
 
 }
@@ -1218,41 +1236,41 @@
 
 @media (max-width: 1519px) {
     .therapy {
-        padding: 1px 0;
+        padding: 65px 0;
     }
 
     .therapy__title-top {
         font-size: 113px;
-        letter-spacing: -1px;
+        letter-spacing: -1.5px;
         line-height: 160px;
     }
 
     .therapy__title-bottom {
         font-size: 78px;
-        letter-spacing: -0.005em;
-        padding-right: 104px;
-        margin-top: -89px;
+        letter-spacing: 0.4px;
+        padding-right: 88px;
+        margin-top: -91px;
     }
 
     .therapy__content-left {
         font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.5px;
+        line-height: 23px;
+        letter-spacing: 0.4px;
         padding-top: 126px;
-        margin-right: -12px;
+        margin-right: -14px;
     }
 
     .therapy__content-left p:not(:last-child) {
-        margin-top: 0;
-        margin-bottom: 10px;
+        margin-top: 2px;
+        margin-bottom: 12px;
     }
 
     .therapy__content-right {
-        margin-bottom: 4px;
-        line-height: 137%;
+        margin-bottom: 1px;
+        line-height: 150%;
         margin-right: -91px;
         font-size: 16px;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.4px;
     }
 
     .therapy__video-view-img {
@@ -1271,13 +1289,22 @@
     .therapy__btn-icon {
         width: 54.82px;
         height: 54.82px;
-        margin-left: 10px;
+        margin-left: 9px;
+        margin-bottom: 5px;
     }
 
     .therapy__btn-text {
         font-size: 17px;
     }
+
+    .therapy__video-play-wrap {
+        width: 95%;
+    }
+    .therapy__btn-text {
+        margin-top: 4px;
+    }
 }
+
 
 
 
@@ -1970,38 +1997,50 @@
 
 
 
-@media (max-width: 1518px) {
+@media (max-width: 1519px) {
     .your {
-        padding-top: 6px;
-        padding-bottom: 220px;
+        padding-top: 91px;
+        padding-bottom: 217px;
     }
 
     .your__title-1 {
         font-size: 111px;
+        letter-spacing: 0px;
     }
 
     .your__title-2 {
-        font-size: 130px;
-        letter-spacing: 6px;
-        margin-left: -110px;
-        margin-top: 58px;
+        font-size: 147px;
+        letter-spacing: 1px;
+        margin-left: -118px;
+        margin-top: 65px;
     }
 
     .your__descr {
         font-size: 17px;
-        letter-spacing: -0.2px;
-        margin-top: 9px;
+        letter-spacing: -0.15px;
+        margin-top: 8px;
+        margin-left: -2px;
+    }
+
+    .your__content{
+        margin-top: 87px;
     }
 
     .your__content-item-text {
-        margin-left: 179px;
+        margin-left: 185px;
         font-size: 48px;
-        letter-spacing: 2px;
+        letter-spacing: 1.9px;
+        line-height: 105%;
+    }
+
+    .your__content-item{
+        margin-bottom: 83px;
     }
 
     .your__content-item-count.decor-font {
         margin-top: -19px;
-        font-size: 53px;
+        font-size: 49px;
+        margin-left: -2px;
     }
 
     .your__content-item-text-1 {
@@ -2009,7 +2048,8 @@
     }
 
     .your__content-item-text-2 {
-        padding-left: 335px;
+        padding-left: 332px;
+        letter-spacing: 1.5px;
     }
 
     .your__content-decor {
@@ -2229,7 +2269,7 @@
 
 @media (max-width: 1519px) {
     .funds {
-        padding-top: 225px;
+        padding-top: 73px;
         padding-bottom: 18px;
     }
 

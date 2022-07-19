@@ -671,16 +671,23 @@ body.header-menu_active .header-menu {
 @media (max-width: 1519px) {
 
     .header__left, .header__right {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
     }
 
     .header__menu-btn {
-        margin-right: 51px;
+        margin-right: 47px;
     }
 
     .logo {
+        margin-top: 8px;
         width: 125px;
         margin-right: 0px;
+    }
+
+
+
+    .header_content-color-wight .menu-btn .menu-btn__title{
+        letter-spacing: 0.9px;
     }
 
     .header__wrap {
@@ -689,19 +696,23 @@ body.header-menu_active .header-menu {
 
     .header__wrap a {
         font-size: 16px;
+        letter-spacing: 0.5px;
     }
 
     .menu-btn__burger {
-        margin-right: 4px;
+        margin-right: 2px;
     }
 
     .header__contacts .contacts__item {
-        margin-left: 12px;
+        margin-left: 25px;
     }
 
     .header__phone {
-        margin-right: 19px;
-        letter-spacing: 0.03em;
+        margin-right: 3px;
+        letter-spacing: 0.7px !important;
+    }
+    .contacts__item-icon svg {
+        width: 25px;
     }
 }
 
