@@ -31,7 +31,6 @@
     width: 100%;
 }
 
-
 @media (max-width: 1519px){
     .snippet__title{
         font-size: 22px;
@@ -44,3 +43,4 @@
         height: 354px;
     }
 }
+

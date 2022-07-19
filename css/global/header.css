@@ -596,6 +596,15 @@ body.header-menu_active .header-menu {
         margin-right: 7px;
         letter-spacing: 0em;
     }
+
+    .header .contacts__item-icon svg {
+        width: 33px;
+    }
+
+    .header .logo {
+        margin-bottom: -7px;
+        margin-top: 7px;
+    }
 }
 
 @media (max-width: 1720px) {
@@ -700,7 +709,7 @@ body.header-menu_active .header-menu {
     }
 
     .menu-btn__burger {
-        margin-right: 2px;
+        margin-right: 7px;
     }
 
     .header__contacts .contacts__item {
@@ -713,6 +722,17 @@ body.header-menu_active .header-menu {
     }
     .contacts__item-icon svg {
         width: 25px;
+    }
+
+    .header .contacts__item-icon svg {
+        width: auto;
+        height: 25px;
+    }
+    .header__contacts .contacts__item {
+        margin-left: 22px;
+    }
+    .header__phone {
+        margin-right: 7px;
     }
 }
 

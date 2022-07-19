@@ -113,10 +113,6 @@
     }
 
 }
-
-
-
-
 @media(max-width: 1720px) {
 
     .main {
@@ -164,7 +160,6 @@
     }
 
 }
-
 @media(max-width: 1620px) {
 
     .main {
@@ -212,12 +207,12 @@
     }
 
 }
-
-
 @media(max-width: 1519px) {
 
     .main {
+
         padding: 116px 0 162px;
+
     }
 
     .main__wrap {
@@ -261,6 +256,33 @@
     .main__play-btn svg {
         height: 63px;
         width: 76px;
+    }
+
+    .main__title-1 {
+        font-size: 209px;
+    }
+    .main__title-2 {
+        font-size: 211px;
+        margin-left: 70px;
+    }
+    .main__name {
+        font-size: 170px;
+        line-height: normal;
+        margin-right: 4px;
+        margin-top: 30px;
+    }
+    .main__bottom {
+        column-gap: normal;
+        justify-content: space-between;
+    }
+    .main__descr {
+        margin-bottom: 40px;
+        font-size: 16.7px;
+        max-width: 437px;
+    }
+    .main__play-btn svg {
+        height: 63px;
+        width: 63px;
     }
 
 }
@@ -391,10 +413,6 @@
         font-size: 20px;
     }
 }
-
-
-
-
 @media(max-width: 1720px) {
 
     .know-how__pagination {
@@ -431,10 +449,6 @@
         font-size: 18px;
     }
 }
-
-
-
-
 @media(max-width: 1620px) {
 
     .know-how__pagination {
@@ -472,10 +486,6 @@
         font-size: 18px;
     }
 }
-
-
-
-
 @media(max-width: 1519px) {
 
 
@@ -515,6 +525,43 @@
         font-size: 16px;
         margin-left: -2px;
     }
+
+    .know-how__slide-title {
+        letter-spacing: -3.01px;
+        font-size: 83px;
+        line-height: 93px;
+        margin-left: -8px;
+    }
+    .know-how__slide {
+        padding-top: 109px;
+        padding-bottom: 159px;
+    }
+    .know-how__slide-decor-title {
+        line-height: 88px;
+        font-size: 95px;
+        margin-top: -59px;
+        margin-bottom: 42px;
+    }
+    .know-how__slide-descr {
+        max-width: 610px;
+        letter-spacing: -0.1px;
+        font-size: 17px;
+        margin-left: 1px;
+    }
+    .know-how__pagination .swiper-pagination-bullet:after {
+        height: 10px;
+        width: 10px;
+    }
+    .know-how__pagination .swiper-pagination-bullet {
+        width: 28px;
+        height: 28px;
+        margin: 0 2px !important;
+    }
+    .know-how__pagination {
+        left: 4px !important;
+        bottom: 3px !important;
+    }
+
 }
 
 
@@ -911,6 +958,38 @@
         font-size: 17px;
     }
 
+    .recipe__title-line-1 {
+        letter-spacing: -2.2px;
+        margin-left: -8px;
+    }
+
+    .recipe__title-line {
+        font-size: 114px;
+        line-height: 105px;
+    }
+    .recipe__title-line-2, .recipe__title-line-3 {
+        margin-left: 202px;
+    }
+    .recipe__items {
+        margin-top: -165px;
+    }
+    .recipe__item {
+        width: 336px;
+        height: 336px;
+    }
+    .recipe__item-img {
+        height: 100%;
+    }
+    .recipe__items-right, .recipe__items-center {
+        margin-left: 25px;
+    }
+
+    .recipe__item:not(:last-child) {
+        margin-bottom: 24px;
+    }
+    .recipe {
+        padding-bottom: 228px;
+    }
 }
 
 
@@ -952,29 +1031,6 @@
 }
 
 
-
-@media (max-width: 1820px) {
-    .therapy {
-        padding: 86px 0;
-    }
-
-    .therapy__title-top {
-        font-size: 134px;
-        letter-spacing: -0.005em;
-    }
-
-    .therapy__title-bottom {
-        font-size: 96px;
-        letter-spacing: -0.005em;
-        padding-right: 104px;
-    }
-
-    .therapy__content-left {
-        font-size: 20px;
-        letter-spacing: 0.005em;
-        padding-top: 143px;
-    }
-}
 
 
 
@@ -1124,6 +1180,27 @@
 
 
 @media (max-width: 1820px) {
+    .therapy {
+        padding: 86px 0;
+    }
+
+    .therapy__title-top {
+        font-size: 134px;
+        letter-spacing: -0.005em;
+    }
+
+    .therapy__title-bottom {
+        font-size: 96px;
+        letter-spacing: -0.005em;
+        padding-right: 104px;
+    }
+
+    .therapy__content-left {
+        font-size: 20px;
+        letter-spacing: 0.005em;
+        padding-top: 143px;
+    }
+
     .therapy__content-left {
         font-size: 20px;
         line-height: 139%;
@@ -1297,6 +1374,8 @@
         font-size: 17px;
     }
 
+
+    /* conflict start
     .therapy__video-play-wrap {
         width: 95%;
     }
@@ -1304,6 +1383,33 @@
     .therapy__btn-text {
         margin-top: 4px;
     }
+    /8 conflict
+    .therapy__title-top {
+        font-size: 113px;
+        letter-spacing: -1.5px;
+        line-height: 160px;
+        margin-left: -9px;
+    }
+    .therapy__title-bottom {
+        font-size: 81px;
+        letter-spacing: -0.01em;
+        padding-right: 90px;
+        margin-top: -91px;
+    }
+    .therapy__video-view-img {
+        width: 100%;
+        height: 100%;
+    }
+    .therapy__video {
+        width: 521px;
+        margin-right: 26px;
+    }
+    .therapy__content-right {
+        max-width: 427px;
+        min-width: 427px;
+
+    }
+    /* conflict end
 }
 
 
@@ -2279,13 +2385,23 @@
         margin-left: -44px;
     }
 
-}
+    .funds__container {
+        max-width: 1404px;
+    }
 
-@media (max-width: 1519px) {
     .funds {
         padding-top: 157px;
         padding-bottom: 0px;
     }
+    .funds__slider-btn {
+        padding: 47px 0;
+    }
+    .funds__btn {
+        width: 50px;
+        height: 50px;
+        margin: 0 20px;
+    }
+
 
 
     .funds__title-1 {
@@ -2298,7 +2414,6 @@
         margin-top: -29px;
         margin-left: -35px;
     }
-
     .funds__container {
         max-width: 1400px;
     }
@@ -2310,6 +2425,5 @@
     }
 }
 
-body {
-    overflow-x: hidden;
-}
+
+
