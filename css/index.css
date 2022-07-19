@@ -210,12 +210,11 @@
 
 }
 
+
 @media(max-width: 1519px) {
 
     .main {
-
-        padding: 140px 0 162px;
-
+        padding: 116px 0 162px;
     }
 
     .main__wrap {
@@ -261,41 +260,7 @@
         width: 76px;
     }
 
-    .main__title-1 {
-        font-size: 209px;
-    }
-
-    .main__title-2 {
-        font-size: 211px;
-        margin-left: 70px;
-    }
-
-    .main__name {
-        font-size: 170px;
-        line-height: normal;
-        margin-right: 4px;
-        margin-top: 30px;
-    }
-
-    .main__bottom {
-        column-gap: normal;
-        justify-content: space-between;
-    }
-
-    .main__descr {
-        margin-bottom: 40px;
-        font-size: 16.7px;
-        max-width: 437px;
-    }
-
-    .main__play-btn svg {
-        height: 63px;
-        width: 63px;
-    }
-
 }
-
-
 
 
 
@@ -497,6 +462,8 @@
     }
 }
 
+
+
 @media(max-width: 1519px) {
 
 
@@ -536,51 +503,7 @@
         font-size: 16px;
         margin-left: -2px;
     }
-
-    .know-how__slide-title {
-        letter-spacing: -3.01px;
-        font-size: 83px;
-        line-height: 93px;
-        margin-left: -8px;
-    }
-
-    .know-how__slide {
-        padding-top: 109px;
-        padding-bottom: 159px;
-    }
-
-    .know-how__slide-decor-title {
-        line-height: 88px;
-        font-size: 95px;
-        margin-top: -59px;
-        margin-bottom: 42px;
-    }
-
-    .know-how__slide-descr {
-        max-width: 610px;
-        letter-spacing: -0.1px;
-        font-size: 17px;
-        margin-left: 1px;
-    }
-
-    .know-how__pagination .swiper-pagination-bullet:after {
-        height: 10px;
-        width: 10px;
-    }
-
-    .know-how__pagination .swiper-pagination-bullet {
-        width: 28px;
-        height: 28px;
-        margin: 0 2px !important;
-    }
-
-    .know-how__pagination {
-        left: 4px !important;
-        bottom: 3px !important;
-    }
-
 }
-
 
 
 
@@ -906,7 +829,7 @@
 
 @media(max-width: 1519px) {
     .recipe {
-        padding-top: 416px;
+        padding-top: 419px;
         padding-bottom: 118px;
     }
 
@@ -1801,120 +1724,116 @@
             padding-top: 137px;
             padding-bottom: 184px;
         }
-
+    
         .blog__title {
             font-size: 113px;
             letter-spacing: -1px;
         }
-
+    
         .blog__list {
             margin-top: 36px;
         }
-
-
+    
+    
         .blog__list-left {
             margin-right: 28px;
             width: 419px;
         }
-
+    
         .blog__item-1, .blog__item-3 {
             height: 417px;
         }
-
+    
         .blog__list-left {
             margin-right: -29px;
         }
-
+    
         .blog__item-5 {
             margin-right: 71px;
             width: 298px;
             height: 297px;
             transform: translateY(0px);
         }
-
+    
         .blog__item-4 {
             width: 491.82px;
             height: 488.82px;
             margin-right: 27px;
         }
-
+    
         .blog__item-2 {
             width: 270.92px;
             height: 272.92px;
             margin-top: -36px;
         }
-
+    
         .blog__item {
             margin-bottom: 62px;
         }
-
+    
         .blog__item-img {
             width: 100%;
             height: 100%;
         }
-
+    
         .blog__item-content {
             width: 100%;
             padding: 20px;
             height: 100%;
         }
-
-
+    
+    
         .blog__list-right {
             margin-right: -53px;
         }
-
+    
         .blog__item-top {
             font-size: 47px;
-
+    
         }
-
+    
         .blog__item-title {
             font-size: 22px;
             line-height: 143%;
             letter-spacing: 0.2px;
             margin-bottom: 0;
         }
-
+    
         .blog__item-descr {
             font-size: 15px;
             margin-bottom: -2px;
         }
-
+    
         .blog__list-right-top {
             margin-right: -18px;
             margin-left: 58px;
         }
-
-
+    
+    
         .blog__list-right-bottom {
             margin-left: 57px;
         }
-
+    
         .blog__item-6 {
             margin-top: -10px;
             width: 708px;
             height: 708px;
         }
-
+    
         .blog__item-hovered-content {
             height: 100%;
         }
-
+    
         .blog__item-3 {
             height: 421px;
             margin-top: -38px;
         }
-
         .blog__list-right-decor {
             font-size: 79px;
             top: 97px;
             right: -89px;
         }
     }
-
-
-
 
 
 
