@@ -314,7 +314,7 @@
         margin-top: 10px;
     }
 
-    .footer__bottom-center{
+    .footer__bottom-center {
         margin-top: -10px;
     }
 
@@ -325,9 +325,9 @@
 
 }
 
-@media (max-width: 1518px) {
+@media (max-width: 1519px) {
     .footer {
-        padding: 124px 0 131px;
+        padding: 121px 0 80px;
     }
 
     .footer-form__title {
@@ -335,7 +335,7 @@
     }
 
     .footer-form__title-top-1 {
-        letter-spacing: 0px;
+        letter-spacing: 0.3px;
         font-size: 50px;
     }
 
@@ -347,7 +347,12 @@
     .footer-form__title-bottom-1 {
         letter-spacing: -0.034em;
         font-size: 47px;
-        letter-spacing: 2px;
+        letter-spacing: 2.2px;
+    }
+
+
+    .footer-form__input{
+        width: 268px;
     }
 
     .footer-form__title-top-2, .footer-form__title-bottom-2 {
@@ -357,7 +362,7 @@
     }
 
     .footer-form__title {
-        padding-bottom: 44px;
+        padding-bottom: 43px;
     }
 
     .footer-form__decor-img-1 {
@@ -372,7 +377,7 @@
     }
 
     .footer-form__content {
-        padding: 38px 0 29px;
+        padding: 37px 0 24px;
     }
 
     .footer-form__fields {
@@ -390,8 +395,13 @@
     }
 
     .footer-form__btn {
-        margin-left: 71px;
+        margin-left: 73px;
         font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    .footer-form__btn-text {
+        margin-right: 9px;
     }
 
     .footer-form__btn-icon svg {
@@ -400,11 +410,7 @@
     }
 
     .footer-form .input-wrap {
-        margin-bottom: 6px;
-    }
-
-    .footer {
-        padding: 120px 0 132px;
+        margin-bottom: 11px;
     }
 
     .footer__top a {
@@ -416,7 +422,7 @@
     }
 
     .footer__bottom {
-        margin-top: 62px;
+        margin-top: 74px;
     }
 
     .footer__bottom-left a, .footer__bottom-left span {
@@ -424,16 +430,27 @@
     }
 
     .footer__bottom-left {
-        margin-bottom: -10px;
+        margin-bottom: 15px;
     }
 
     .footer__bottom-right a {
-        margin-bottom: -7px;
-        font-size: 17px;
+        margin-bottom: -5px;
+        font-size: 16px;
+        letter-spacing: 0.3px;
+    }
+
+    .footer__bottom-left span {
+        margin-bottom: -22px;
+        margin-top: 19px;
     }
 
     .btn {
         width: 128px !important;
         height: 128px !important;
+    }
+
+    .btn_svg svg {
+        max-width: 27px;
+        height: auto;
     }
 }
