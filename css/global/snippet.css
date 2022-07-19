@@ -10,7 +10,7 @@
 .snippet__img {
     max-width: 100%;
     object-fit: cover;
-    height: 457px;
+
     display: block;
 }
 
@@ -29,4 +29,18 @@
     max-width: 300px;
     margin: 0 auto;
     width: 100%;
+}
+
+
+@media (max-width: 1519px){
+    .snippet__title{
+        font-size: 22px;
+        padding: 8px 0;
+        line-height: normal;
+        max-width: 240px;
+    }
+    .snippet__img {
+        object-fit: contain;
+        height: 354px;
+    }
 }

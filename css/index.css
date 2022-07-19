@@ -1300,6 +1300,7 @@
     .therapy__video-play-wrap {
         width: 95%;
     }
+
     .therapy__btn-text {
         margin-top: 4px;
     }
@@ -1669,11 +1670,11 @@
 
 
 
-@media (max-width: 1518px) {
+@media (max-width: 1519px) {
 
     .blog {
         padding-top: 137px;
-        padding-bottom: 194px;
+        padding-bottom: 184px;
     }
 
     .blog__title {
@@ -1687,11 +1688,12 @@
 
 
     .blog__list-left {
-        margin-right: 32px;
+        margin-right: 28px;
+        width: 419px;
     }
 
     .blog__item-1, .blog__item-3 {
-        height: 444px;
+        height: 417px;
     }
 
     .blog__list-left {
@@ -1699,38 +1701,37 @@
     }
 
     .blog__item-5 {
-        margin-bottom: 21px;
-        margin-right: 74px;
-        width: 296px;
-        height: 309px;
-        transform: translateY(-13px);
+        margin-right: 71px;
+        width: 298px;
+        height: 297px;
+        transform: translateY(0px);
     }
 
     .blog__item-4 {
         width: 491.82px;
-        height: 521.82px;
+        height: 488.82px;
         margin-right: 27px;
     }
 
     .blog__item-2 {
-        width: 273.92px;
-        height: 289.92px;
-        margin-top: -12px !important;
+        width: 270.92px;
+        height: 272.92px;
+        margin-top: -36px;
     }
 
     .blog__item {
-        margin-bottom: 13px;
+        margin-bottom: 62px;
     }
 
     .blog__item-img {
         width: 100%;
-        height: 94%;
+        height: 100%;
     }
 
     .blog__item-content {
         width: 100%;
         padding: 20px;
-        height: 94%;
+        height: 100%;
     }
 
 
@@ -1745,11 +1746,14 @@
 
     .blog__item-title {
         font-size: 22px;
-        line-height: 131%;
+        line-height: 143%;
+        letter-spacing: 0.2px;
+        margin-bottom: 0;
     }
 
     .blog__item-descr {
         font-size: 15px;
+        margin-bottom: -2px;
     }
 
     .blog__list-right-top {
@@ -1765,13 +1769,22 @@
     .blog__item-6 {
         margin-top: -10px;
         width: 708px;
-        height: 737px;
+        height: 708px;
     }
 
     .blog__item-hovered-content {
-        height: 96%;
+        height: 100%;
     }
 
+    .blog__item-3 {
+        height: 421px;
+        margin-top: -38px;
+    }
+    .blog__list-right-decor {
+        font-size: 79px;
+        top: 97px;
+        right: -89px;
+    }
 }
 
 
@@ -1999,7 +2012,7 @@
 
 @media (max-width: 1519px) {
     .your {
-        padding-top: 91px;
+        padding-top: 120px;
         padding-bottom: 217px;
     }
 
@@ -2022,7 +2035,7 @@
         margin-left: -2px;
     }
 
-    .your__content{
+    .your__content {
         margin-top: 87px;
     }
 
@@ -2033,7 +2046,7 @@
         line-height: 105%;
     }
 
-    .your__content-item{
+    .your__content-item {
         margin-bottom: 83px;
     }
 
@@ -2053,8 +2066,9 @@
     }
 
     .your__content-decor {
-        width: 49%;
-        bottom: -92px;
+        width: 619px;
+        height: 632px;
+        bottom: -63px;
     }
 }
 
@@ -2269,8 +2283,8 @@
 
 @media (max-width: 1519px) {
     .funds {
-        padding-top: 73px;
-        padding-bottom: 18px;
+        padding-top: 157px;
+        padding-bottom: 0px;
     }
 
 
@@ -2286,7 +2300,13 @@
     }
 
     .funds__container {
-        max-width: 1518px;
+        max-width: 1400px;
+    }
+
+    .funds__btn {
+        width: 51px;
+        height: 51px;
+        margin: 13px 23px;
     }
 }
 
