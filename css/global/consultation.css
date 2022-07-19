@@ -165,15 +165,15 @@
     }
 }
 
-@media (max-width: 1518px) {
+@media (max-width: 1519px) {
     .consultation__title {
-        font-size: 107px;
+        font-size: 111px;
         line-height: 103px;
-        letter-spacing: 3px;
+        letter-spacing: 0px;
     }
 
     .consultation__title-2 {
-        margin-right: 117px;
+        margin-right: 123px;
     }
 
     .consultation__title__form-button svg {
@@ -191,24 +191,20 @@
         height: 582px;
     }
 
-    .consultation__title__form {
-        padding-right: 0px;
-        margin-right: -24px;
-        padding-bottom: 37px;
-    }
-
     .consultation__title__form-body {
         margin-top: 25px;
     }
 
     .consultation__title__form-top {
         font-size: 17px;
+        letter-spacing: -0.2px;
         max-width: 327px;
     }
 
     .consultation__title__form {
-        padding-right: 74px;
+        padding-right: 42px;
         margin-top: 20px;
+        padding-bottom: 40px;
     }
 
     .consultation__title__form-field {
@@ -225,5 +221,15 @@
 
     .consultation__title__form-field input {
         width: 266px;
+    }
+
+    .consultation__title__form-button {
+        margin-left: 59px;
+        margin-bottom: 23px;
+    }
+    .consultation__title__form {
+        padding-right: 66px;
+        margin-top: 20px;
+        padding-bottom: 41px;
     }
 }
